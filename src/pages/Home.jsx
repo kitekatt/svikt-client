@@ -169,6 +169,7 @@ const Home = () => {
                         style={{
                            maxWidth: "350px",
                            height: "350px",
+                           marginTop: "30px",
                            borderRadius: "20px",
                            background: "#FFF0CA",
                            position: "relative",
@@ -219,6 +220,7 @@ const Home = () => {
                         style={{
                            maxWidth: "350px",
                            height: "350px",
+                           marginTop: "30px",
                            borderRadius: "20px",
                            background: "#FFF0CA",
                            position: "relative",
@@ -267,6 +269,7 @@ const Home = () => {
                         style={{
                            maxWidth: "350px",
                            height: "350px",
+                           marginTop: "30px",
                            borderRadius: "20px",
                            background: "#FFF0CA",
                            position: "relative",
