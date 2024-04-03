@@ -18,6 +18,9 @@
    color: black;
 }
 
+.auth-title{
+   color: black;
+}
 
 @media (max-width: 480px) {
    .regLink{
@@ -31,5 +34,25 @@
    }
    .singBtn{
       display: block;
+      margin-right: 30px;
+   }
+   .auth-title{
+      font-size: 15px;
+   }
+   .singLink, .singBtn{
+      font-size: 10px;
+   }
+
+}
+
+@media (width: 320px){
+   .signBtn{
+      width: 60px;
+      font-size: 12px;
+
+   }
+   .singLink, .singBtn{
+      font-size: 10px;
+      width: 50px;
    }
 }

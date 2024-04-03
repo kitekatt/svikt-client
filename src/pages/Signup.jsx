@@ -31,7 +31,7 @@ const Signup = observer(() => {
     return (
         <Container className="d-flex justify-content-center">
             <Card style={{width: '50%'}} className="p-2 mt-5 bg-light">
-                <h3 className="m-auto">Регистрация</h3>
+                <h3 className="m-auto auth-title">Регистрация</h3>
                 <Form className="d-flex flex-column" onSubmit={handleSubmit}>
                     <Form.Control
                         name="email"

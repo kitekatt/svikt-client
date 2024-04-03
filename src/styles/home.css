@@ -493,13 +493,7 @@
 }
 
 .CardBtn{
-   width: 100px;
-   height: 50px;
-   background: #F7C238;
-   border-radius: 10px;
-
-   margin-left: 490px;
-   margin-bottom: 20px;
+   margin-left: 230px;
 }
 .CardBtn:hover{
    background: darkgoldenrod;
