@@ -1,0 +1,52 @@
+.auth-body{
+   max-width: 500px;
+   height: 500px;
+   background: rgba(0, 0, 0, 0.11);
+   border-radius: 10px;
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   margin: auto;
+}
+.auth-body h2{
+   font-size: 30px;
+   text-align: center;
+   padding-top: 50px;
+   padding-bottom: 30px;
+}
+.inputBody{
+   display: flex;
+   flex-direction: column;
+}
+.inputBody input{
+   height: 50px;
+   padding: 5px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+
+   -webkit-box-shadow: inset 0 0 0 50px #f3b200;
+   -webkit-text-fill-color: #000;
+}
+.inputBody button{
+   background: #FCBF21;
+   width: 120px;
+   height: 50px;
+   border-radius: 5px;
+
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 10px;
+}
+.inputBody button:hover {
+   transform: skew(-10deg);
+}
+.inputBody p, Link{
+   color: white;
+   text-align: center;
+}
+
+h4{
+   color: #f3b200;
+}

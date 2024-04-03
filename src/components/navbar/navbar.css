@@ -1,0 +1,99 @@
+.navbar-body {
+   background: #2D2D2D;
+   width: 100%;
+}
+
+.navbar-pages {
+   display: flex; 
+}
+
+.header-nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 8px;
+}
+
+.social-links a {
+   margin-right: 19px;
+}
+.social-links a:last-child {
+   margin-right: 0;
+}
+
+.navbar-pages-link {
+   padding-right: 19px;
+   padding-top: 10px;
+}
+
+.nav-link, .auth-link, .admin-link {
+   color: white;
+   font-family: Inter;
+   font-size: 15px;
+   font-weight: 400;
+   margin-right: 30px;
+}
+
+.nav-link:hover, .auth-link:hover, .admin-link:hover {
+   color: #F7C238;
+   text-decoration: underline;
+}
+
+/* адаптив */
+@media (max-width: 720px){
+   .logo{
+      width: 40px;
+   }
+   .social-links{
+      display: flex;
+   }
+   .social-links img{
+      width: 25px;
+      margin-right: -10px;
+   }
+   .auth-link{
+      margin-left: 10px;
+   }
+
+   .nav-link{
+      color: white;
+      margin-left: 5px;
+      margin-right: 3px;
+   }
+
+   .admin-link{
+      font-size: 13px;
+      margin-left: -10px;
+   }
+}
+@media (max-width: 480px) {   
+   .header-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+   .logo{
+      width: 40px;
+   }
+   .social-links{
+      display: flex;
+   }
+   .social-links img{
+      width: 25px;
+      margin-right: -10px;
+   }
+   .auth-link{
+      margin-left: 10px;
+   }
+
+   .nav-link{
+      color: white;
+      margin-left: 5px;
+      margin-right: 3px;
+   }
+
+   .admin-link{
+      font-size: 13px;
+      margin-left: -10px;
+   }
+}

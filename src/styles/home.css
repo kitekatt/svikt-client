@@ -1,0 +1,508 @@
+/* header */
+.headerBG {
+   background-image: url(./../image/header-img/headerBg.jpg);
+   width: 100%;
+   height: 900px;
+   background-size: 100% auto;
+}
+
+.header-content h2 {
+   padding-top: 100px;
+   font-size: 96px;
+   font-weight: 400;
+}
+
+.header-content h2 {
+   text-align: center;
+}
+
+.svikt {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 22px;
+}
+
+.headerText1 {
+   color: white;
+   text-align: center;
+   font-family: Inter;
+   font-size: 30px;
+   font-weight: 400;
+
+   margin-bottom: 12px;
+}
+
+.headerText2 {
+   color: white;
+   text-align: center;
+   font-family: Inter;
+   font-size: 25px;
+   font-weight: 400;
+
+   margin-bottom: 82px;
+}
+
+.headerBTN {
+   width: 421px;
+   height: 73px;
+   border: none;
+   outline: none;
+   color: #fff;
+   position: relative;
+   z-index: 0;
+   border-radius: 10px;
+}
+
+.headerBTN:before {
+   content: '';
+   background: linear-gradient(45deg, #ff0000, #ffa200, #ffffff, #fffb00, #ff0000);
+   position: absolute;
+   top: -2px;
+   left: -2px;
+   background-size: 400%;
+   z-index: -1;
+   filter: blur(5px);
+   width: calc(100% + 4px);
+   height: calc(100% + 4px);
+   animation: glowing 20s linear infinite;
+   opacity: 0;
+   transition: opacity .3s ease-in-out;
+   border-radius: 10px;
+}
+
+.headerBTN:active {
+   color: #000
+}
+
+.headerBTN:active:after {
+   background: transparent;
+}
+
+.headerBTN:hover:before {
+   opacity: 1;
+}
+
+.headerBTN:after {
+   z-index: -1;
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: #FCBF21;
+
+   left: 0;
+   top: 0;
+   border-radius: 10px;
+}
+
+@keyframes glowing {
+   0% {
+      background-position: 0 0;
+   }
+
+   50% {
+      background-position: 400% 0;
+   }
+
+   100% {
+      background-position: 0 0;
+   }
+}
+
+.headerBTN p {
+   color: #000;
+   text-align: center;
+   padding: 10px;
+   font-family: Yesteryear;
+   font-size: 32px;
+   font-weight: 400;
+}
+
+
+/* about me */
+.about-content {
+   padding-top: 72px;
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 100px;
+}
+
+.aboutMe-block {
+   max-width: 550px;
+   max-height: 650px;
+   border-radius: 30px;
+   background: #F7C238;
+}
+
+.me-head {
+   display: flex;
+   align-items: center;
+}
+
+.about_me_text {
+   text-align: justify;
+   font-size: 25px;
+   padding-top: 5px;
+   padding-left: 5px;
+   padding-right: 5px;
+
+}
+
+.me-head img {
+   margin-left: 20px;
+   margin-top: 20px;
+   margin-right: 50px;
+   max-width: 150px;
+   max-height: 150px;
+}
+
+.who-am-I {
+   max-width: 320px;
+   font-size: 24px;
+   font-weight: 400;
+   font-style: italic;
+   text-align: justify;
+}
+.title-content{
+   font-size: 30px;
+   text-align: center;
+   padding-top: 10px;
+}
+
+.title-text {
+   min-width: 200px;
+   padding-top: 20px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   text-align: justify;
+   font-size: 28px;
+   font-style: italic;
+   font-weight: 400;
+
+}
+
+.myPrice-block {
+   max-width: 682px;
+   max-height: 650px;
+   border-radius: 30px;
+   background: #FFF0CA;
+}
+
+.price_text {
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 20px;
+   padding-bottom: 76px;
+   text-align: justify;
+   font-size: 25px;
+   font-style: italic;
+   font-weight: 400;
+}
+
+.prise-title {
+   font-family: PT Serif Caption;
+   font-size: 38px;
+   font-weight: 400;
+   text-align: center;
+}
+
+
+/* categories */
+.categoriesTitle-body h3 {
+   text-align: center;
+   font-family: "PT Serif Caption";
+   font-size: 40px;
+   font-weight: 400;
+   color: #000;
+}
+
+.CardsCategories {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.categoriesCard-priviev{
+   margin-right: 30px;
+   margin-left: 30px;
+}
+
+.categoriesCard-priviev img {
+   align-items: center;
+   padding: 10px;
+   border-radius: 15px;
+   width: 350px;
+}
+
+.title-content {
+   font-size: 20px;
+}
+
+.categoriesTitle-body {
+   width: 100%;
+   height: 85px;
+   background: #FFF0CA;
+   border-radius: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 44px;
+}
+
+.title-description {
+   font-size: 20px;
+   padding: 10px;
+}
+
+.CardBtn{
+   width: 100px;
+   height: 50px;
+   background: #F7C238;
+   border-radius: 10px;
+
+   margin-left: 490px;
+   margin-bottom: 20px;
+}
+.CardBtn:hover{
+   background: darkgoldenrod;
+   color: white;
+}
+
+
+/* адаптив */
+@media (width: 720px){
+   /* header */
+   .headerBG {
+      height: 450px;
+   }
+
+   .header-content h2 {
+      padding-top: 20px;
+      font-size: 30px;
+   }
+   
+   .svikt {
+      width: 350px;
+   }
+   
+   .headerText1 {
+      font-size: 20px;
+      margin-bottom: 12px;
+   }
+   
+   .headerText2 {
+      font-size: 20px;
+      margin-bottom: 30px;
+   }
+
+   /* about me */
+.about-content {
+   padding-top: 20px;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 50px;
+}
+
+.aboutMe-block {
+   max-width: 550px;
+   max-height: 650px;
+   margin-bottom: 20px;
+} 
+
+.about_me_text {
+   margin: 10px;
+   font-size: 15px;
+}
+
+.me-head img {
+   max-width: 100px;
+   max-height: 100px;
+}
+
+.who-am-I {
+   font-size: 15px;
+   margin-right: 10px;
+}
+
+.price_text {
+   font-size: 15px;
+   padding-bottom: 20px;
+   
+}
+
+.prise-title {
+   font-size: 20px;
+   margin-left: 10px;
+}
+
+
+/* categories */
+.categoriesTitle-body h3 {
+   padding-top: 20px;
+   font-size: 30px;
+}
+
+.CardsCategories {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.categoriesCard-priviev{
+   margin-right: 30px;
+   margin-left: 30px;
+}
+
+.categoriesCard-priviev img {
+   align-items: center;
+   padding: 10px;
+   border-radius: 15px;
+   width: 350px;
+}
+
+.card-content {
+   width: 350px;
+   font-size: 10px;
+   margin-bottom: 10px;
+}
+
+.title-description {
+   font-size: 20px;
+}
+
+.CardBtn{
+   width: 100px;
+   height: 50px;
+   background: #F7C238;
+   border-radius: 10px;
+
+   margin-left: 490px;
+   margin-bottom: 20px;
+}
+.CardBtn:hover{
+   background: darkgoldenrod;
+   color: white;
+}
+}
+
+@media (max-width: 480px){
+   /* header */
+   .headerBG {
+      background-image: none;
+      height: 500px;
+   }
+
+   .header-content h2 {
+      padding-top: 50px;
+      font-size: 30px;
+   }
+   
+   .svikt {
+      width: 300px;
+
+   }
+   
+   .headerText1 {
+      font-size: 20px;
+      margin-bottom: 12px;
+   }
+   
+   .headerText2 {
+      font-size: 20px;
+      margin-bottom: 30px;
+   }
+
+   /* about me */
+.about-content {
+   padding-top: 20px;
+   flex-direction: column;
+   padding-bottom: 100px;
+}
+
+.aboutMe-block {
+   max-width: 550px;
+   max-height: 650px;
+   margin-bottom: 20px;
+} 
+
+.about_me_text {
+   margin: 10px;
+   font-size: 15px;
+}
+
+.me-head img {
+   max-width: 100px;
+   max-height: 100px;
+}
+
+.who-am-I {
+   font-size: 15px;
+   margin-right: 10px;
+}
+
+.price_text {
+   font-size: 15px;
+   padding-bottom: 20px;
+   
+}
+
+.prise-title {
+   font-size: 20px;
+   margin-left: 10px;
+}
+
+
+/* categories */
+.categoriesTitle-body h3 {
+   padding-top: 20px;
+   font-size: 30px;
+}
+
+.CardsCategories {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.categoriesCard-priviev{
+   margin-right: 30px;
+   margin-left: 30px;
+}
+
+.categoriesCard-priviev img {
+   align-items: center;
+   padding: 10px;
+   border-radius: 15px;
+   width: 350px;
+}
+
+.card-content {
+   width: 350px;
+   font-size: 10px;
+   margin-bottom: 10px;
+}
+
+.title-description {
+   font-size: 20px;
+}
+
+.CardBtn{
+   width: 100px;
+   height: 50px;
+   background: #F7C238;
+   border-radius: 10px;
+
+   margin-left: 490px;
+   margin-bottom: 20px;
+}
+.CardBtn:hover{
+   background: darkgoldenrod;
+   color: white;
+}
+}

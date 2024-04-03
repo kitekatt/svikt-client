@@ -1,0 +1,49 @@
+.cont__block {
+   max-width: 500px;
+   height: 300px;
+   border-radius: 10px;
+   background-color: rgb(74, 74, 74);
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 20px;
+}
+
+.cont__flex {
+   padding-top: 20px;
+}
+.cont__up{
+   margin-left: 180px;
+   padding-bottom: 20px;
+}
+.cont__up a{
+   padding-right: 10px;
+}
+.phone, .email{
+   margin-left: 100px;
+}
+.cont__text{
+   color: white;
+   text-align: center;
+}
+
+@media (max-width: 720px) {
+   .cont__up{
+      margin-left: 140px;
+      padding-bottom: 20px;
+   }
+   .cont__text{
+      font-size: 20px;
+      text-align: center;
+   }
+}
+
+@media(max-width: 480px){
+   .cont__up{
+      margin-left: 140px;
+      padding-bottom: 20px;
+   }
+   .cont__text{
+      font-size: 20px;
+      text-align: center;
+   }
+}

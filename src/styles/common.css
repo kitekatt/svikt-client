@@ -1,0 +1,91 @@
+.container {
+   max-width: 1280px;
+   margin: 0 auto;
+   padding: 0 30;
+
+   /* отключение копирования текста на сайте */
+   -ms-user-select: none;
+   -moz-user-select: none;
+   -webkit-user-select: none;
+   user-select: none;
+}
+
+p {
+   font-family: Inter;
+   font-size: 24px;
+   font-weight: 400;
+}
+
+h2 {
+   font-size: 96px;
+   color: white;
+   font-family: Russo One;
+
+}
+
+h3 {
+   text-align: center;
+   font-family: PT Serif Caption;
+   font-size: 36px;
+   font-weight: 400;
+   padding-top: 15px;
+}
+
+.title-content {
+   font-family: PT Serif Caption;
+   font-size: 34px;
+   font-weight: 400;
+   padding-bottom: 25px;
+
+}
+
+.title-description {
+   font-family: PT Serif Caption;
+   font-size: 24px;
+   font-weight: 400;
+   max-width: 600px;
+   padding-bottom: 18px;
+}
+
+.card-description:last-child {
+   padding-bottom: 0;
+}
+
+a {
+   cursor: pointer;
+   text-transform: none;
+   color: black;
+}
+
+.loading-text {
+   font-size: 40px;
+   color: brown;
+}
+
+.GallWithWorks {
+   /* отключение копирования текста на сайте */
+   -ms-user-select: none;
+   -moz-user-select: none;
+   -webkit-user-select: none;
+   user-select: none;
+}
+
+.header-title {
+   max-width: 1000px;
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+
+/* адаптив */
+@media (max-width: 720px) {
+   .container {
+      width: 100%;
+   }
+}
+@media (max-width: 480px) {
+   .container {
+      width: 100%;
+   }
+}
